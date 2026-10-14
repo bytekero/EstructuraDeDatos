@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1791964120 source:c:\users\sotil\documents\codeblocks\pizzeria\src\pizzeria.cpp
+	"pizzeria.h"
+	<cstdlib>
+	<ctime>
+	<string>
+
+1791998980 c:\users\sotil\documents\codeblocks\pizzeria\include\pizzeria.h
+	<string>
+
+1791998382 source:c:\users\sotil\documents\codeblocks\pizzeria\src\cola.cpp
+	<iostream>
+	"Cola.h"
+	"pizzeria.h"
+
+1791998067 c:\users\sotil\documents\codeblocks\pizzeria\include\cola.h
+	"NodoCola.h"
+
+1791998854 c:\users\sotil\documents\codeblocks\pizzeria\include\nodocola.h
+	<iostream>
+	"pizzeria.h"
+
+1791998864 source:c:\users\sotil\documents\codeblocks\pizzeria\src\nodocola.cpp
+	"NodoCola.h"
+
+1791999777 source:c:\users\sotil\documents\codeblocks\pizzeria\main.cpp
+	<iostream>
+	"pizzeria.h"
+	<windows.h>
+	<ctime>
+
