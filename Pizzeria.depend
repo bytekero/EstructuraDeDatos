@@ -29,3 +29,34 @@
 	<windows.h>
 	<ctime>
 
+1792067868 source:c:\users\anton\documents\github\estructuradedatos\src\nodocola.cpp
+	"NodoCola.h"
+
+1792067868 c:\users\anton\documents\github\estructuradedatos\include\nodocola.h
+	<iostream>
+	"pizzeria.h"
+
+1792067868 c:\users\anton\documents\github\estructuradedatos\include\pizzeria.h
+	<string>
+
+1792067868 source:c:\users\anton\documents\github\estructuradedatos\src\pizzeria.cpp
+	"pizzeria.h"
+	<cstdlib>
+	<ctime>
+	<string>
+
+1792096367 source:c:\users\anton\documents\github\estructuradedatos\src\cola.cpp
+	<iostream>
+	"Cola.h"
+	"pizzeria.h"
+
+1792067868 c:\users\anton\documents\github\estructuradedatos\include\cola.h
+	"NodoCola.h"
+
+1792098457 source:c:\users\anton\documents\github\estructuradedatos\main.cpp
+	<iostream>
+	"pizzeria.h"
+	"Cola.h"
+	<windows.h>
+	<ctime>
+

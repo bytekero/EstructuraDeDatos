@@ -52,6 +52,14 @@ Pedido Cola::desencolar()
         longitud--;
         return pedido;
     }
+    else
+    {
+        Pedido pedidoVacio;
+        pedidoVacio.id_pedido = "-1";
+        pedidoVacio.estado = "null";
+
+        return pedidoVacio;
+    }
 }
 
 Pedido Cola::inicio()
