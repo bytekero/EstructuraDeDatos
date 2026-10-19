@@ -4,7 +4,6 @@ NodoCola::NodoCola(Pedido p)
 {
     pedido = p;
     siguiente=NULL;
-//constructor por defecto
 }
 
 NodoCola::NodoCola(Pedido p, NodoCola*sig)
@@ -16,4 +15,9 @@ NodoCola::NodoCola(Pedido p, NodoCola*sig)
 NodoCola::~NodoCola()
 {
 //dtor
+}
+
+Pedido NodoCola::get_pedido()
+{
+    return pedido;
 }

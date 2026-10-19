@@ -13,6 +13,7 @@ public:
     NodoCola(Pedido p);
     NodoCola(Pedido p, NodoCola*sig);
     ~NodoCola();
+    Pedido get_pedido();
 };
 
 #endif // NODOCOLA_H

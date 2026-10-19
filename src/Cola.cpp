@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "Cola.h"
 #include "pizzeria.h"
 
@@ -6,6 +7,14 @@ using namespace std;
 
 Cola::Cola()
 {
+    primero = NULL;
+    ultimo = NULL;
+    longitud = 0;
+}
+
+Cola::Cola(string nom)
+{
+    nombre = nom;
     primero = NULL;
     ultimo = NULL;
     longitud = 0;
@@ -81,6 +90,11 @@ Pedido Cola::fin()
 int Cola::get_longitud()
 {
     return longitud;
+}
+
+string Cola::get_nombre()
+{
+    return nombre;
 }
 
 bool Cola::es_vacia()

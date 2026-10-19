@@ -14,6 +14,7 @@ struct Pedido
     std::string estado;
 
     Pedido();
+    Pedido(bool pers);
 };
 
 #endif // PIZZERIA_H_INCLUDED
