@@ -60,3 +60,35 @@
 	<windows.h>
 	<ctime>
 
+1792098567 source:c:\users\sotil\documents\codeblocks\estructuradedatos\src\cola.cpp
+	<iostream>
+	"Cola.h"
+	"pizzeria.h"
+
+1792098567 c:\users\sotil\documents\codeblocks\estructuradedatos\include\cola.h
+	"NodoCola.h"
+
+1792098567 c:\users\sotil\documents\codeblocks\estructuradedatos\include\nodocola.h
+	<iostream>
+	"pizzeria.h"
+
+1792098567 c:\users\sotil\documents\codeblocks\estructuradedatos\include\pizzeria.h
+	<string>
+
+1792098567 source:c:\users\sotil\documents\codeblocks\estructuradedatos\src\nodocola.cpp
+	"NodoCola.h"
+
+1792098567 source:c:\users\sotil\documents\codeblocks\estructuradedatos\src\pizzeria.cpp
+	"pizzeria.h"
+	<cstdlib>
+	<ctime>
+	<string>
+
+1792350848 source:c:\users\sotil\documents\codeblocks\estructuradedatos\main.cpp
+	<iostream>
+	<string>
+	"pizzeria.h"
+	"Cola.h"
+	<windows.h>
+	<ctime>
+
